@@ -12,6 +12,7 @@ body {
   padding: 80px 20px;
   text-align: center;
   color: white;
+
   text-shadow: 0 2px 4px rgba(0,0,0,0.4);
 }
 
