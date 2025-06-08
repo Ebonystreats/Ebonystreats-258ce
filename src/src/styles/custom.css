@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ff69b4, #ff1744); /* Vibrant pink → red */
+  color: #4a2c2a;
+}
+
+/* Hero Section with Treats Background */
+.hero {
+  background-image: url('/images/treats-bg.jpg'); /* Replace with actual image path */
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+  border-bottom: 5px solid #ff1744;
+}
+
+/* Section Container Base */
+.section {
+  padding: 50px 24px;
+  margin: 0 auto;
+  max-width: 900px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Vibrant Pink Section */
+.section.pink {
+  background-color: #ff91af; /* More vibrant than #ffc0cb */
+  color: #4a2c2a;
+}
+
+/* Vibrant Red Section */
+.section.red {
+  background-color: #ff3d3d;
+  color: white;
+}
+
+/* Soft Light Pink Section */
+.section.light {
+  background-color: #ffe4ec;
+  color: #4a2c2a;
+}
+
+/* Contact Section — Soft Contrast */
+.section.contact {
+  background-color: #ffccd5;
+  color: #4a2c2a;
+  text-align: center;
+}
+
+/* Link Styling */
+a {
+  color: #b80046;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
