@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(to bottom right, #ff69b4, #ff1744);
+  font-family: 'Segoe UI', sans-serif;
+  color: #4a2c2a;
+  margin: 0;
+}
+
+.section {
+  padding: 2rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 2rem auto;
+  max-width: 800px;
+}
