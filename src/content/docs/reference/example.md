@@ -5,7 +5,7 @@ description: A look at our delicious treats and custom catering orders
 
 # 🍰 Photo Gallery
 
-Here’s a taste of what we create at **Ebonys Treats and More**. All items are handmade with love!
+Here’s a taste of what we create at **Jabby's treats and candied fruits**. All items are handmade with love!
 
 <div className="gallery">
   <img src="/images/cake1.jpg" alt="Custom Birthday Cake" />
