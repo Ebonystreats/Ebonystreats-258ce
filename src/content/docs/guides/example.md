@@ -1,11 +1,22 @@
 ---
-title: Example Guide
-description: A guide in my new Starlight docs site.
+title: Place an Order
 ---
 
-Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
-Writing a good guide requires thinking about what your users are trying to do.
+# Place an Order
 
-## Further reading
+Fill out the form below and we’ll follow up to confirm your order.
 
-- Read [about how-to guides](https://diataxis.fr/how-to-guides/) in the Diátaxis framework
+<form name="order" method="POST" data-netlify="true">
+  <input type="hidden" name="form-name" value="order" />
+  <p>
+    <label>Your Name: <input type="text" name="name" required /></label>
+  </p>
+  <p>
+    <label>Email: <input type="email" name="email" required /></label>
+  </p>
+  <p>
+    <label>What would you like to order?<br />
+    <textarea name="order" required></textarea></label>
+  </p>
+  <p><button type="submit">Submit</button></p>
+</form>
