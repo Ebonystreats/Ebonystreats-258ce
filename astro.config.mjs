@@ -5,7 +5,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Ebonys Treats and More',
-      customCss: 'src/styles/custom.css', // ✅ This line adds your styles
+      customCss: ['./src/styles/custom.css'], // ← THIS IS KEY
       sidebar: [
         {
           label: '← Back to Homepage',
