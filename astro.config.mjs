@@ -5,7 +5,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: 'Ebonys Treats and More',
-      customCss: ['./src/styles/custom.css'], // ← THIS IS KEY
+      customCss: ['./src/styles/custom.css'], // Must be an array
       sidebar: [
         {
           label: '← Back to Homepage',
