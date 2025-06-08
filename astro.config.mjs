@@ -7,19 +7,12 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Homepage',
-			social: [
-				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }
-			],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
 			sidebar: [
-				{
-					label: '← Back to Homepage',
-					items: [
-						{ label: 'Go to Main Site', href: '/' }  // 👈 Custom external/internal link
-					],
-				},
 				{
 					label: 'Orders',
 					items: [
+						// Each item here is one entry in the navigation menu.
 						{ label: 'Place an Order', slug: 'guides/example' },
 					],
 				},
