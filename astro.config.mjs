@@ -18,7 +18,7 @@ export default defineConfig({
 				},
 				{
 					label: 'Gallery',
-					autogenerate: { directory: 'Photos' },
+					autogenerate: { directory: 'reference' },
 				},
 			],
 		}),
